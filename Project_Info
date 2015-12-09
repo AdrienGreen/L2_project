@@ -1,0 +1,17 @@
+To run walmart_spider.py, Python 2.7 needs to be installed as well as the modules BeautifulSoup 4 and Re (Regex library).
+
+The program can be run in terminal by entering:
+
+python /pathto/walmart_spider.py cereal cold_cereal
+
+If cereal or cold_cereal are not yet created, the program will automatically make them. In this repository there are two sample files that I obtained by running the program on my computer. There are named: cereal_sample, cold_cereal_sample
+
+The output files are comma delimited with 4 columns: 'Rank','Brand','Rating','Reviews'. 
+
+Excel (or any tool of choice) can easily be used to analyze the output data. For example, correlations between rating and search ranking or number of reviews and search ranking, percentages of search results for various conditions etc.
+
+Some changes will committed in the future to make the code prettier as well as more efficient and automated.
+
+Note that future changes to Walmart's website layout may result in this program malfunctioning. I will upkeep occasionally to try and stay up to date with site changes but this does not ensure the code will always run.
+
+-Adrien Green
